@@ -14,29 +14,105 @@
     <p>Email:kentoleeds@gmail.com</p>
     <p>Instagram: <a target="_blank" href="https//www.instagram.com/">@instagram</a></p>
     <p>Twitter: <a target="_blank" href="https//www.twitter.com/">@twitter</a></p>
+    <p>Facebook: <a target="_blank" href="https//www.facebook.com/">@facebook</a></p>
     <hr>
     <form action="mailto:kentoleeds@gmail.com" method="post">
         <label for="yourname">Your Name</label>
-        <input type="text"yourName" value""placeholder="please enter Your Name">
+        <input type="text" name="yourName" value"" placeholder="please enter your name">
         <br>
         <br>
+        
         <label for="email">Your Email</label>
         <input type="text" name="email" value=""placeholder="please enter your email address">
         <br>
         <br>
+        <label for="email">Your DOb</label>
+        <input type="text" name="dob" value"" placeholder="please enter your DOB">
+        <br>
+        <br>
         <label for="mobile">your Phone Number</label>
-        <input type="text"name="mobile" value=""placeholder= please enter your phone number">
+        <input type="text"name="mobile" value=""placeholder= "please enter your phone number">
         <br>
         <br>
-        <label for="message">message</label>
-        <textarea name="message" cols="20" rows="10" placeholder=" please enter your message"></textarea>
+        <div>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="mname">middle name</label><br>
+                <input type="text" id="mname" name="mname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+              </form> 
+              <br>
+              <br>
+        </div>
+        
+        <div>
+                    <p>How old are you?</p>
+                    <input type="radio" id="child" name="age" value="child" checked>
+                    <label for="child">17 years or younger</label><br>
+                    <input type="radio" id="adult" name="age" value="adult">
+                    <label for="adult">18 - 64 years</label><br>
+                    <input type="radio" id="senior" name="age" value="senior">
+                    <label for="senior">65 years or older</label>
+                    <br>
+                    <br>
+    <div>
+            <label for="role">Chose A Role That Best Describes You</label>
+                <select name="select-role" id="role">
+                    <option value="select your role">select your role></option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="driver">Driver</option>
+                    <option value="programmer">Programmer</option>
+                    <br>
+                    <br>
+                </select>
+                <div>
+
+                    <label for="review">Select Things That You Liked About Our Product ? </label>
+                    <input type="checkbox" name="review"/>UI
+                    <input type="checkbox" name="review"/>Feature
+                    <input type="checkbox" name="review"/>Service
+                    <input type="checkbox" name="review"/>Simpleness
+                    <br>
+                    <br>
+                </div>
+                <div>
+
+                </div>
+
+                <div>
+                    <table>
+                    <tr>
+                        <th>Names</th>
+                        <th>Age</th>
+                        <th>Sex</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>Deji</td>
+                        <td>24</td>
+                        <td>Male</td>
+                        <td>Imo</td>
+                    </tr>
+                    <tr>
+                        <td>Oge</td>
+                        <td>18</td>
+                        <td>Female</td>
+                        <td>Oyo</td>
+                 </tr>
+                 </table>
+                </div>
+        </div>
+        <br>
+        <br>
+        <label for="message">message</label><br>
+        <textarea name="message" cols="30" rows="10" placeholder=" please enter your message"></textarea>
         <br>
         <br>
         <input type="submit">
 
         </form>
-
-
-    
 </body>
 </html>
